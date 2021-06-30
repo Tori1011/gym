@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0%;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+section {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	background: url(gym.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 100px;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logo {
+	position: relative;
+	font-size: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+header .navigation {
+	position: relative;
+	display: flex;
+}
+
+header .navigation li {
+	List-style: none;
+}
+
+header .navigation li a {
+	display: inline-block;
+	color: #fff;
+	margin-right: 40px;
+	text-decoration: none;
+}
+
+header .navigation li a:hover {
+	coLor: #03a9f4;
+}
+
+.content {
+	max-width: 600px;
+}
+
+.content .contentBx h2 {
+	font-size: 4em;
+	coLor: #fff;
+	Line-height: 1em;
+}
+
+.content .contentBx p {
+	font-size: 1.1em;
+	coLor: #fff;
+	font-size: 300;
+	margin: 20px 0;
+}
+
+.content .contentBx a {
+	display: inline-block;
+	padding: 10px 30px;
+	background: #03a9f4;
+	coLor: #fff;
+	text-decoration: none;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(gym1.jpg);
+	background-size: 100%;
+	background-position: 100px 0px;
+}
+
+div.main {
+	width: 400;
+	margin: 100px auto 0px auto;
+}
+
+h2 {
+	text-align: center;
+	padding: 30px;
+	font-family: sans-serif;
+}
+
+div.register {
+	background-color: rgba (0, 0, 0, 0, 5);
+	width: 100%;
+	font-size: 1rem;
+	border-radius: 40px;
+	border: 1px soid rgba (255, 255, 255, 0, 3);
+	box-shadow: 2px 2px 15px rgba (0, 0, 0, 0, 3);
+	color: #fff;
+}
+
+.tttt {
+	  
+	text-align: center;
+}
+
+form#register {
+	margin: 0 auto;
+}
+
+label {
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: italic;
+}
+
+input#submit {
+	width: 200px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: 700;
+	border: none;
+	border-radius: 3px;
+	background-color: rgba(250, 100, 0, 0.8);
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid rgba (255, 255, 255, 0.3);
+	box-shadow: 1px 1px 5px rgba (0, 0, 0, 0.3);
+}
+
+label,
+span,
+h2 {
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
